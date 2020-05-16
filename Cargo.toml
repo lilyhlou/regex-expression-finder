@@ -1,0 +1,15 @@
+[package]
+name = "thegrep"
+version = "1.0.0"
+authors = ["Lily Lou <loulh@cs.unc.edu>, Taylor Montgomery <tayjomo@live.unc.edu>"]
+edition = "2018"
+
+[dependencies]
+structopt = { version = "0.2", default-features = false }
+rand = "0.6"
+ 
+[dev-dependencies]
+assert_cmd = "0.10"
+escargot = "0.3"
+lazy_static = "1.2"
+predicates = "1.0"
